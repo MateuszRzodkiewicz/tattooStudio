@@ -1,0 +1,87 @@
+.contenerforbutton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.contenerImg {
+  margin: 130px auto 0 auto;
+  overflow: hidden;
+  width: 85vw;
+  height: 550px;
+}
+.contenerImg img {
+  position: absolute;
+  width: 85vw;
+  height: 550px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .contenerImg {
+    margin: 50px auto 0 auto;
+    width: 100%;
+    height: 320px;
+  }
+  .contenerImg img {
+    width: 100%;
+  }
+  .contenerImg img {
+    border-radius: 0%;
+  }
+  .contenerImg img {
+    height: 320px;
+  }
+  .contenerforbutton {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contenerImg {
+    width: 100%;
+  }
+  .contenerImg img {
+    width: 100%;
+  }
+  .contenerImg img {
+    border-radius: 0%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .contenerImg {
+    height: 85vh;
+  }
+  .contenerImg img {
+    height: 85vh;
+  }
+}
+@media screen and (max-width: 770px) {
+  .contenerImg {
+    margin: 50px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .contenerImg {
+    margin: 50px auto 0 auto;
+    height: calc(100vh - 50px);
+  }
+  .contenerImg img {
+    height: calc(100vh - 50px);
+  }
+}
+
+.button {
+  margin: 10px 20px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.carouselImg {
+  box-shadow: 5px 8px 30px #8c89a3;
+  border-radius: 10px;
+}

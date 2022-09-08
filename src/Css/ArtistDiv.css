@@ -1,0 +1,54 @@
+@keyframes artP {
+  from {
+    margin-left: -450px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes artDiv {
+  from {
+    background-color: rgb(50, 42, 42);
+  }
+  to {
+    background-color: rgb(30, 30, 30);
+  }
+}
+.artistDiv {
+  position: fixed;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  width: 340px;
+  height: 150px;
+  overflow: hidden;
+  animation-name: artDiv;
+  animation-duration: 0.5s;
+}
+.artistDivP {
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  animation-name: artP;
+  animation-duration: 0.5s;
+}
+.artistDiv span {
+  font-size: 32px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 900px) {
+  .artistDiv {
+    width: 200px;
+    height: 75px;
+  }
+  .artistDivP {
+    font-size: 16px;
+    padding: 2px 5px;
+  }
+  .artistDiv span {
+    font-size: 15px;
+  }
+}

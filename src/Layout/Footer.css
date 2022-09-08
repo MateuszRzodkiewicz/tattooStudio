@@ -1,0 +1,12 @@
+div .footer {
+  margin-top: 40px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.footer p {
+  font-size: 16px;
+  color: white;
+}

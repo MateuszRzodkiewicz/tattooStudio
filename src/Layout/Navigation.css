@@ -1,0 +1,140 @@
+nav {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  max-height: 80px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  list-style: none;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.navigation li a {
+  letter-spacing: 5px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 80px;
+  padding: 20px;
+  color: black;
+  transition: 0.5s;
+}
+.navigation li a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.navigation img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+@keyframes rotateimg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotateImg:hover {
+  animation: rotateimg 1.5s;
+}
+
+.iconNav {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .navBar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    z-index: 100000;
+    background-color: black;
+    padding: 20px;
+    font-size: 46px;
+    color: white;
+    cursor: pointer;
+    overflow-y: scroll;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    color: white;
+  }
+  li:nth-child(1) {
+    margin-top: 100px;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+
+  li:nth-child(3) {
+    padding-top: 20px;
+    max-width: 80px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 60px);
+  }
+  .navigation li a img {
+    max-width: 80px;
+  }
+  .navigation li a {
+    color: white;
+    font-size: 24px;
+  }
+  .closeNav {
+    transition: 0.5s;
+    left: -100%;
+  }
+  .openNav {
+    transition: 0.5s;
+    left: 0;
+  }
+  .iconNav {
+    display: block;
+  }
+  .iconNav:nth-child(1) {
+    z-index: 2;
+  }
+  nav {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  li:nth-child(5) {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navigation li a img {
+    max-width: 70px;
+  }
+
+  .navigation li a {
+    color: white;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+.socialMedia {
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  font-size: 26px;
+}
+.socialFontStyle {
+  display: block;
+  padding: 4px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .socialMedia {
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .socialMedia {
+    top: 100px;
+  }
+}

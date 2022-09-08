@@ -1,0 +1,91 @@
+.newsletterContener {
+  display: flex;
+  align-items: flex-end;
+  background-color: #fff;
+  margin: 180px 0 180px 0;
+  width: 100%;
+  padding: 200px 0 160px 0;
+  flex-wrap: wrap;
+}
+
+.headerNewsletter {
+  width: 40vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .headerNewsletter {
+    width: 50vw;
+  }
+  .newsletter {
+    width: 51vw;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.headerNewsletter p {
+  font-family: "Dancing Script", cursive;
+  padding-left: 60px;
+  padding-bottom: 15px;
+  font-size: 34px;
+  margin: 0;
+}
+
+.headerNewsletter h2 {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 0;
+  padding-left: 100px;
+}
+.newsletter {
+  height: 80px;
+  width: 50vw;
+  border-bottom: black dashed 2px;
+}
+.newsletter p {
+  color: rgb(201, 66, 66);
+  height: 20px;
+}
+.flex {
+  display: flex;
+}
+
+.inputNewsletter {
+  background-color: transparent;
+  border-style: none;
+  flex-grow: 1;
+}
+
+.inputNewsletter:focus {
+  outline: none;
+}
+.btnNewsletter {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 331px) {
+  .btnNewsletter {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headerNewsletter p {
+    padding-left: 10px;
+  }
+  .headerNewsletter h2 {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  .newsletter {
+    width: 85%;
+  }
+}

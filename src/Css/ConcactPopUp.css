@@ -1,0 +1,129 @@
+.blur {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(224, 182, 217, 0.247);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.popUpContainer {
+  border-radius: 2%;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.87);
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 250px);
+  z-index: 2000;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.signUp {
+  text-align: center;
+  width: 100%;
+  height: 60px;
+}
+.email,
+.phoneNumber {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #db9bdd;
+  width: 80%;
+  margin: 0 0 30px 50px;
+}
+
+.email:focus,
+.phoneNumber:focus {
+  outline: none;
+}
+
+select {
+  width: 200px;
+  background: transparent;
+  border: solid 1px #db9bdd;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+select:focus-visible {
+  outline: none;
+}
+select:focus {
+  background: #d98fdd1b;
+  border: solid 1px #db9bdd;
+  border-radius: 10px;
+}
+.popUpButton {
+  margin: 100px 2px 0 50px;
+  font-size: 16px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(244, 235, 245),
+    rgb(215, 143, 218)
+  );
+  background-size: 300px;
+  border: 1px solid #db9bdd;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.popUpButton:hover {
+  cursor: pointer;
+  animation: animationButton 2s infinite alternate;
+}
+
+.popUpSpan {
+  height: 20px;
+  width: 100%;
+  color: rgb(216, 79, 79);
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.correctPopUp {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 520px) {
+  .popUpContainer {
+    width: 100%;
+    height: 500px;
+    top: calc(50% - 250px);
+    left: calc(50% - 50%);
+  }
+  .popUpButton {
+    margin: 50px 2px 0 50px;
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (max-width: 915px) and (orientation: landscape) {
+  .popUpContainer {
+    width: 85%;
+    height: 100vh;
+    top: 0;
+    left: calc(50% - 42.5%);
+  }
+  .popUpButton {
+    margin: 50px 2px 0 50px;
+    padding: 5px 60px;
+  }
+  .signUp {
+    height: 10px;
+  }
+  select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+#galery {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  background-color: #fef3f3;
+}
+
+#galery div h1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#galery section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85vw;
+  margin: auto;
+}
+
+.imgGalery {
+  width: 32%;
+  height: 25vw;
+  margin-bottom: 2%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .imgGalery {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .imgGalery {
+    margin: 0 auto 2% auto;
+    width: 85%;
+    height: 50vw;
+  }
+}
