@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-firstproject/static/css/main.8c2d489c.css",
+    "main.js": "/my-firstproject/static/js/main.225257e5.js",
+    "static/media/tattoo1.jpg": "/my-firstproject/static/media/tattoo1.a0d6bbada079e931711b.jpg",
+    "static/media/redSkull.png": "/my-firstproject/static/media/redSkull.96d5ff00b78ee06c2aac.png",
+    "static/media/tattooWork.jpg": "/my-firstproject/static/media/tattooWork.54fd584f332b234bdebd.jpg",
+    "static/media/womanFeniks.jpg": "/my-firstproject/static/media/womanFeniks.b8527090731017ac3e25.jpg",
+    "static/media/white-paper-texture-background.jpg": "/my-firstproject/static/media/white-paper-texture-background.cf8a25c504cebecb97c1.jpg",
+    "static/media/amazonTattoo.jpg": "/my-firstproject/static/media/amazonTattoo.3ce64cfc1c05351afd5f.jpg",
+    "static/media/santaOwl.jpg": "/my-firstproject/static/media/santaOwl.c8336d9bf0860cfaff14.jpg",
+    "static/media/hennaHand.jpg": "/my-firstproject/static/media/hennaHand.68f2b64804444cb4d2d7.jpg",
+    "static/media/eyeAndBird.jpg": "/my-firstproject/static/media/eyeAndBird.cc4fed02ef03050fdc55.jpg",
+    "static/media/tattooHands.jpg": "/my-firstproject/static/media/tattooHands.d01a6ce421422154860a.jpg",
+    "static/media/tattoo2.jpg": "/my-firstproject/static/media/tattoo2.eb8d1645e47c33989160.jpg",
+    "static/media/bird.jpg": "/my-firstproject/static/media/bird.920511e62364c346d2cb.jpg",
+    "static/media/owl.jpg": "/my-firstproject/static/media/owl.524cdecf6aa69235b684.jpg",
+    "static/media/tattooArm.jpg": "/my-firstproject/static/media/tattooArm.6aab5acd39d2e8131732.jpg",
+    "static/media/unicorn2.jpg": "/my-firstproject/static/media/unicorn2.26d45b0457def126ec27.jpg",
+    "static/media/tattoo.jpg": "/my-firstproject/static/media/tattoo.602c5b6d5b85cc6deb07.jpg",
+    "static/media/batman2.jpg": "/my-firstproject/static/media/batman2.5aedcb3a74e8b1bf3e4d.jpg",
+    "static/media/stormtroopers2.jpg": "/my-firstproject/static/media/stormtroopers2.aaa96d16c01c22213d60.jpg",
+    "static/media/batman.jpg": "/my-firstproject/static/media/batman.8855e99f8a3405635393.jpg",
+    "static/media/unicorn.jpg": "/my-firstproject/static/media/unicorn.6502e744630f489f2c0f.jpg",
+    "static/media/stormtroopers.jpg": "/my-firstproject/static/media/stormtroopers.ee526e64a7c53f56e565.jpg",
+    "index.html": "/my-firstproject/index.html",
+    "main.8c2d489c.css.map": "/my-firstproject/static/css/main.8c2d489c.css.map",
+    "main.225257e5.js.map": "/my-firstproject/static/js/main.225257e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c2d489c.css",
+    "static/js/main.225257e5.js"
+  ]
+}
