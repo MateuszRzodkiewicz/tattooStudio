@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TattooStudio/static/css/main.f371a3a3.css",
-    "main.js": "/TattooStudio/static/js/main.d6778259.js",
+    "main.css": "/TattooStudio/static/css/main.d7571a0b.css",
+    "main.js": "/TattooStudio/static/js/main.b2d003b8.js",
     "static/media/tattoo1.jpg": "/TattooStudio/static/media/tattoo1.a0d6bbada079e931711b.jpg",
     "static/media/redSkull.png": "/TattooStudio/static/media/redSkull.96d5ff00b78ee06c2aac.png",
     "static/media/tattooWork.jpg": "/TattooStudio/static/media/tattooWork.54fd584f332b234bdebd.jpg",
@@ -24,11 +24,11 @@
     "static/media/unicorn.jpg": "/TattooStudio/static/media/unicorn.6502e744630f489f2c0f.jpg",
     "static/media/stormtroopers.jpg": "/TattooStudio/static/media/stormtroopers.ee526e64a7c53f56e565.jpg",
     "index.html": "/TattooStudio/index.html",
-    "main.f371a3a3.css.map": "/TattooStudio/static/css/main.f371a3a3.css.map",
-    "main.d6778259.js.map": "/TattooStudio/static/js/main.d6778259.js.map"
+    "main.d7571a0b.css.map": "/TattooStudio/static/css/main.d7571a0b.css.map",
+    "main.b2d003b8.js.map": "/TattooStudio/static/js/main.b2d003b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f371a3a3.css",
-    "static/js/main.d6778259.js"
+    "static/css/main.d7571a0b.css",
+    "static/js/main.b2d003b8.js"
   ]
 }
