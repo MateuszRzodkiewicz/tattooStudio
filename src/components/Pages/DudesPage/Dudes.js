@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import unicorn from "./DudesLegoPics/unicorn.jpg";
-import batman from "./DudesLegoPics/batman.jpg";
-import stormtroopers from "./DudesLegoPics/stormtroopers.jpg";
-import DudeName from "./DudeName";
-import unicorn2 from "./DudesLegoPics/unicorn2.jpg";
-import batman2 from "./DudesLegoPics/batman2.jpg";
-import stormtroopers2 from "./DudesLegoPics/stormtroopers2.jpg";
+import unicorn from "../../../assets/DudesLegoPics/unicorn.jpg";
+import batman from "../../../assets/DudesLegoPics/batman.jpg";
+import stormtroopers from "../../../assets/DudesLegoPics/stormtroopers.jpg";
+import unicorn2 from "../../../assets/DudesLegoPics/unicorn2.jpg";
+import batman2 from "../../../assets/DudesLegoPics/batman2.jpg";
+import stormtroopers2 from "../../../assets/DudesLegoPics/stormtroopers2.jpg";
 import "../../../Css/Dudes.css";
 
 const dudesLegoPics = [
@@ -57,11 +56,7 @@ function Dudes2() {
     <div id="dudes">
       <h1>Odkryj naszą ekipe</h1>
       <div className="containerFlex">{dudesPics1}</div>
-      {hover ? (
-        <DudeName artName={artName} />
-      ) : (
-        <h1 className="dudeName">Tattoo Studio</h1>
-      )}
+      <h1 className="dudeName">{hover ? artName : "Tatto Studio"}</h1>
     </div>
   );
 }

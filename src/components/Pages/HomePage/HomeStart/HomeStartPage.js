@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import "../../../../Css/HomeStartPage.css";
 import HomeSection from "./homeSection/HomeSection";
-import tattoo from "./pictures/tattoo.jpg";
-import tattoo1 from "./pictures/tattoo1.jpg";
-import tattoo2 from "./pictures/tattoo2.jpg";
+import tattoo from "../../../../assets/pictures/tattoo.jpg";
+import tattoo1 from "../../../../assets/pictures/tattoo1.jpg";
+import tattoo2 from "../../../../assets/pictures/tattoo2.jpg";
 import GaleryHomePics from "../GaleryHomePics/GaleryHomePics";
 
 const pictures = [

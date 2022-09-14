@@ -28,18 +28,13 @@ function ConcactPopUp({ handlePopUp }) {
 
     if (value === "Wybierz artyste") {
       newErrors.value = true;
-      setValue("Wybierz artyste");
     }
     if (!emailValue.includes("@")) {
       newErrors.email = true;
       setEmailValue("");
     }
 
-    if (
-      phoneNumber.length === 9 &&
-      value !== "Wybierz artyste" &&
-      emailValue.includes("@")
-    ) {
+    if (!newErrors.email && !newErrors.value && !newErrors.phone) {
       setEmailValue("");
       setValue("Wybierz artyste");
       setPhoneNumber("");
@@ -65,7 +60,7 @@ function ConcactPopUp({ handlePopUp }) {
           {correct && "Dziękujemy, Prosimy czekać na kontakt"}
         </p>
         <span className="popUpSpan">
-          {errors.email && "Niepoprawny email !"}
+          {errors.email && "Niepoprawny email!"}
         </span>
         <input
           className="email"
@@ -75,7 +70,7 @@ function ConcactPopUp({ handlePopUp }) {
           value={emailValue}
         />
         <span className="popUpSpan">
-          {errors.phone && "Niepoprawny numer !"}
+          {errors.phone && "Niepoprawny numer!"}
         </span>
 
         <input
@@ -85,7 +80,7 @@ function ConcactPopUp({ handlePopUp }) {
           onChange={changePhoneValue}
           value={phoneNumber}
         />
-        <span className="popUpSpan">{errors.value && "Wybierz artystę !"}</span>
+        <span className="popUpSpan">{errors.value && "Wybierz artystę!"}</span>
 
         <select value={value} onChange={handleChangeSelect}>
           {artistOptions}

@@ -3,17 +3,16 @@ import "../../../Css/Newsletter.css";
 function Newsletter() {
   const [value, setValue] = useState("");
   const [btnText, setBtnText] = useState("zapisz się");
-  const [wrongEmail, setWrongEmail] = useState(true);
-  const [goodEmail, setGoodEmail] = useState(false);
+  const [email, setEmail] = useState(null);
+
   const changeValue = (e) => setValue(e.target.value);
 
   const handleSubmit = () => {
     if (!value.includes("@")) {
-      setWrongEmail(false);
-      setGoodEmail(false);
+      setEmail(false);
     } else {
-      setGoodEmail(true);
-      setWrongEmail(true);
+      setEmail(true);
+
       setValue("");
     }
     setBtnText("wysyłanie...");
@@ -26,11 +25,9 @@ function Newsletter() {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       if (!value.includes("@")) {
-        setWrongEmail(false);
-        setGoodEmail(false);
+        setEmail(false);
       } else {
-        setGoodEmail(true);
-        setWrongEmail(true);
+        setEmail(true);
         setValue("");
       }
       setBtnText("wysyłanie...");
@@ -50,12 +47,14 @@ function Newsletter() {
 
       <div className="newsletter">
         <p>
-          {!wrongEmail && <span>Niepoprawny email !</span>}
-          {goodEmail && (
-            <span style={{ color: "#3634e3" }}>
-              Dziękujemy za dołączenie !{" "}
-            </span>
-          )}
+          {email !== null &&
+            (!email ? (
+              <span>Niepoprawny email !</span>
+            ) : (
+              <span style={{ color: "#3634e3" }}>
+                Dziękujemy za dołączenie !
+              </span>
+            ))}
         </p>
         <div className="flex">
           <input

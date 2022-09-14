@@ -1,8 +1,7 @@
-import tattooWork from "./tattooWork.jpg";
-// import "./MakeAnAppointment.css";
+import tattooWork from "../../../assets/tattooWork.jpg";
 import "../../../Css/MakeAnAppointment.css";
 import { useState } from "react";
-import ConcactPopUp from "./PopUp/CocncactPopUp";
+import ConcactPopUp from "./PopUp/ConcactPopUp";
 
 const tattooWorks = tattooWork;
 

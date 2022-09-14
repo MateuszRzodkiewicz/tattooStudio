@@ -43,6 +43,12 @@
 .artistNameForMobile {
   display: none;
 }
+.dudeName {
+  margin-left: 7.5vw;
+  font-size: 62px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
 
 @media screen and (max-width: 1290px) {
   .containerFlex {

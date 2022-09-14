@@ -1,13 +1,13 @@
-import bird from "./TattoPics/bird.jpg";
-import eyeAndBird from "./TattoPics/eyeAndBird.jpg";
-import owl from "./TattoPics/owl.jpg";
-import tattooArm from "./TattoPics/tattooArm.jpg";
-import womanFeniks from "./TattoPics/womanFeniks.jpg";
-import tattooHands from "./TattoPics/tattooHands.jpg";
-import amazonTattoo from "./TattoPics/amazonTattoo.jpg";
-import hennaHand from "./TattoPics/hennaHand.jpg";
+import bird from "../../../../assets/TattoPics/bird.jpg";
+import eyeAndBird from "../../../../assets/TattoPics/eyeAndBird.jpg";
+import owl from "../../../../assets/TattoPics/owl.jpg";
+import tattooArm from "../../../../assets/TattoPics/tattooArm.jpg";
+import womanFeniks from "../../../../assets/TattoPics/womanFeniks.jpg";
+import tattooHands from "../../../../assets/TattoPics/tattooHands.jpg";
+import amazonTattoo from "../../../../assets/TattoPics/amazonTattoo.jpg";
+import hennaHand from "../../../../assets/TattoPics/hennaHand.jpg";
 import ArtistDiv from "./ArtistDiv";
-import santaOwl from "./TattoPics/santaOwl.jpg";
+import santaOwl from "../../../../assets/TattoPics/santaOwl.jpg";
 import "../../../../Css/ArtistDiv.css";
 import "../../../../Css/GaleryHomePics.css";
 
